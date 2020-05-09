@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+    <title>Bulletin</title>
+    <link rel="stylesheet" type="text/css" href="styles/main.css" />
+</head>
+<body>
+    <img src="images/logo.png" id="logo" alt="bulletin logo"/>
+    <div id="container">
+        <div id="bulletin"></div>
+        <div id="sidebar">
+            <p>Create a New Label</p>
+            <input class="controls" id="newLabel" type="text"/>
+            <label for="newLabel">Label text</label>
+            <input class="controls" id = "backgroundColor" type="color" value="#fefefe"/>
+            <label for="backgroundColor">Background Color</label>
+            <input class="controls" id = "textColor" type="color"/>
+            <label for="textColor">Text Color</label>
+            <button class="controls" id="create">Create Label</button>
+            <img id="remove" src="images/trashcan.png" alt="Trashcan"/>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
